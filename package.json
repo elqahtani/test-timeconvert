@@ -1,0 +1,30 @@
+{
+  "name": "hello-test",
+  "version": "1.0.0",
+  "description": "Hello Test Javascript",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index-test.js",
+    "test": "mocha --watch index-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elqahtani/hello-test.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Huda Ridwan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elqahtani/hello-test/issues"
+  },
+  "homepage": "https://github.com/elqahtani/hello-test#readme",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "mocha": "^4.0.1"
+  }
+}
